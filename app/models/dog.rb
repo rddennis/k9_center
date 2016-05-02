@@ -1,4 +1,5 @@
 class Dog < ActiveRecord::Base
-  belongs_to :owner_id
-  belongs_to :vet_id
+  belongs_to :breed
+  belongs_to :owner
+  belongs_to :vet
 end

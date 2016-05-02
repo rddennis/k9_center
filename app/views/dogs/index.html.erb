@@ -8,6 +8,7 @@
       <th>Name</th>
       <th>Dob</th>
       <th>Checked in</th>
+      <th>Breed</th>
       <th>Owner</th>
       <th>Vet</th>
       <th>Info</th>
@@ -21,8 +22,9 @@
         <td><%= dog.name %></td>
         <td><%= dog.dob %></td>
         <td><%= dog.checked_in %></td>
-        <td><%= dog.owner_id %></td>
-        <td><%= dog.vet_id %></td>
+        <td><%= dog.breed %></td>
+        <td><%= dog.owner %></td>
+        <td><%= dog.vet %></td>
         <td><%= dog.info %></td>
         <td><%= link_to 'Show', dog %></td>
         <td><%= link_to 'Edit', edit_dog_path(dog) %></td>
