@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  dob: 2016-05-02
+  checked_in: false
+  owner_id_id: 
+  vet_id_id: 
+  info: MyText
+
+two:
+  name: MyString
+  dob: 2016-05-02
+  checked_in: false
+  owner_id_id: 
+  vet_id_id: 
+  info: MyText

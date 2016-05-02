@@ -1,0 +1,13 @@
+<%= simple_form_for(@vet) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :doctor %>
+    <%= f.input :clinic %>
+    <%= f.input :phone %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

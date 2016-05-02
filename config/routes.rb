@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :dogs
+  resources :vets
+  resources :owners
   get 'pages/index'
 
   get 'pages/about'
