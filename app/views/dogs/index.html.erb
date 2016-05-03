@@ -2,7 +2,7 @@
 
 <h1>Listing Dogs</h1>
 
-<table>
+<table class = "table">
   <thead>
     <tr>
       <th>Name</th>
@@ -22,9 +22,9 @@
         <td><%= dog.name %></td>
         <td><%= dog.dob %></td>
         <td><%= dog.checked_in %></td>
-        <td><%= dog.breed %></td>
-        <td><%= dog.owner %></td>
-        <td><%= dog.vet %></td>
+        <td><%= dog.breed.name %></td>
+        <td><%= dog.owner.first_name %> <%= dog.owner.last_name %></td>
+        <td><%= dog.vet.doctor %></td>
         <td><%= dog.info %></td>
         <td><%= link_to 'Show', dog %></td>
         <td><%= link_to 'Edit', edit_dog_path(dog) %></td>

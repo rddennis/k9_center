@@ -7,7 +7,7 @@
     <%= f.input :checked_in %>
     <%= f.association :breed %>
     <%= f.association :owner %>
-    <%= f.association :vet %>
+    <%= f.association :vet, collection: Vet.order(:doctor), label_method: :doctor %>
     <%= f.input :info %>
   </div>
 
